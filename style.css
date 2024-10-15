@@ -1,0 +1,89 @@
+#header{
+    display:flex;
+    background-color: brown;
+    justify-content: center;
+
+}
+
+
+#main{
+
+    background-color: rgb(42, 91, 165);
+
+
+}
+.imagenes{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#imagen1{
+
+    justify-content: start;
+}
+
+#imagen2{
+    
+    
+    
+
+}
+
+#imagen3{
+
+    justify-content: end;
+}
+
+.nose{
+    display: flex;
+    background-color: chartreuse;
+
+
+}
+
+#texto{
+    Display:Flex;
+    align-items: center;
+}
+.controles{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    
+
+
+}
+.nose2{
+    display: flex;
+
+}
+#dividir{
+    background-color: chartreuse;
+}
+#dividir2{
+    background-color: chartreuse;
+}
+#dividir3{
+    background-color: chartreuse;
+}
+#texto2{
+    display: flex;
+    justify-content: space-between;
+}
+#texto3{
+    display: flex;
+}
+#texto4{
+    Display:Flex;
+    align-items: center;
+
+}
+#alfa{
+    display: flex;
+}
+#beta{
+    display: flex;
+}
