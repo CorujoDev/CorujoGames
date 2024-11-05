@@ -88,3 +88,15 @@
 #omega{
     display: flex;
 }
+.boton{
+    animation: anim1 10s;
+}
+
+@keyframes anim1 {
+    0%{
+        transform:scale(10);
+    }
+    100%{
+        transform:scale(1);
+        
+    }
