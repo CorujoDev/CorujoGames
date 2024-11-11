@@ -88,11 +88,11 @@
 #omega{
     display: flex;
 }
+
 .boton{
-    Width: 479px;;
-    Height: 123px;;
-    Animation: anim1;
-    animation: infinite;
+    Width: 479px;
+    Height: 123px;
+    Animation: anim1 2s infinite;
 }
 
 @keyframes anim1 {
