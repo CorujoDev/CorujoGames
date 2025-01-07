@@ -1,6 +1,15 @@
+:root{
+    --alfa:white;
+    --beta:rgb(231, 255, 225);
+    --omega: rgb(22, 236, 33);
+}
+
+
+
+
 #header{
     display:flex;
-    background-color: rgb(231, 255, 225);
+    background-color: var(--beta);
     justify-content: center;
 
 }
@@ -8,44 +17,53 @@
 
 #main{
 
-    background-color: rgb(255, 255, 255);
+    background-color: var(--alfa);
 
 
 }
-.imagenes{
-    background-color: rgb(255, 255, 255);
+.main_imagenes{
     display: flex;
     justify-content: space-between;
-
 }
 
+.nav__J{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(88, 221, 88);
+    
+}
 
-#imagen1{
+a{
+    color: black;
+}
 
+#imagenes__imagen1{
+    border-radius: 10px;
     justify-content: start;
 }
 
 
-#imagen3{
+#imagenes__imagen3{
 
     justify-content: end;
 }
 
-.nose{
+.main__nose{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--alfa);
 
 
 }
 
-#texto{
+#nose__texto{
     Display:Flex;
     align-items: center;
 }
 .controles{
     height: 200px;
     width: 200px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--alfa);
+    
     
 
 
@@ -63,33 +81,43 @@
 #dividir3{
     background-color: rgb(5, 255, 80);
 }
-#texto2{
+#animal__texto2{
     display: flex;
     justify-content: space-between;
 }
-#texto3{
+#main__texto3{
     display: flex;
 }
-#texto4{
+#texto__texto4{
     Display:Flex;
     align-items: center;
 
 }
-#alfa{
+#car__alfa{
     display: flex;
 }
-#beta{
+#car__beta{
     display: flex;
 }
 #footer{
-    background-color: rgb(22, 236, 33);
-
+    background-color: var(--omega);
+    display: flex;
+    justify-content:first: baseline :
 }
-#omega{
+#main__omega{
     display: flex;
 }
 
-.boton{
+.one:checked~*{
+    --alfa:black
+    --beta:rgb(176, 247, 158);
+    --omega:rgb(9, 117, 14);
+}
+
+
+
+
+.CGlogo{
     Width: 479px;
     Height: 123px;
     Animation: anim1 2s infinite;
