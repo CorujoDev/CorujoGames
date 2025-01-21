@@ -75,6 +75,18 @@ a{
 
 
 }
+.separar{
+    background-color: chartreuse;
+}
+.footer__a{
+    text-transform: capitalize;
+    margin: 2px 5px;
+    text-decoration: none;
+
+}
+.control__img{
+    Display:Flex;
+}
 .nose2{
     display: flex;
 
