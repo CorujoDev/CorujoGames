@@ -121,7 +121,7 @@ a{
 #footer{
     background-color: var(--omega);
     display: flex;
-    justify-content:first: baseline :
+    justify-content: first,baseline ;
 }
 .main__omega{
     display: flex;
@@ -155,5 +155,49 @@ a{
     100%{
         Background-color: rgb(255, 238, 0);
 
+    }
 
     }
+
+/* Consulta de medios para dispositivos móviles (320px) */
+@media (min-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 14px;
+    }
+
+    .flex { 
+        display: flex;
+         flex-wrap: wrap;
+        justify-content: center; 
+    }
+}
+
+.main__a{
+    text-transform: capitalize;
+    margin: 2px 5px;
+    text-decoration: none;
+}
+
+/* Consulta de medios para escritorios (1200px) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+    .flex {
+    flex-wrap: repeat(3, 1fr);
+    }
+}
+
+/* Consulta de medios para pantallas anchas (1400px) */
+@media (min-width: 1400px) {
+    body {
+        font-size: 20px;
+    }
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
