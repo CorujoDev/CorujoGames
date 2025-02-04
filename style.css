@@ -1,10 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --alfa:white;
-    --beta:rgb(231, 255, 225);
+    --beta: rgb(231, 255, 225);
     --omega: rgb(22, 236, 33);
+    --parrafo: black;
+    --imagen1: src="fotos/pixil-frame-0 (84).png"> ;
+    
+}
+
+input{
+    display: none;
+}
+
+input:checked~*{
+    --alfa:black;
+    --beta: rgb(75, 122, 63);
+    --omega: rgb(12, 90, 16);
+    --parrafo: white;
 }
 
 
+
+label{
+    cursor: pointer;
+}
 
 
 #header{
@@ -24,6 +48,7 @@
 .main_imagenes{
     display: flex;
     justify-content: space-between;
+    background-color:var(--alfa);
 }
 
 .nav__J{
@@ -38,6 +63,14 @@
     margin: 2px 5px;
     text-decoration: none;
 
+}
+
+p{
+    color: var(--parrafo);
+}
+
+h2{
+    color: var(--parrafo);
 }
 
 a{
